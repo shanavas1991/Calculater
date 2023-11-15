@@ -10,16 +10,26 @@
     width:300px;
     margin-left:50px;
     margin-top: 40px;
+    
 }.clear{
     height:55px;
     width:55px;
     margin-left:50px; 
-    margin-top:40px;  
+    margin-top:40px; 
+    border-radius:10px;
+    background-color: rgb(212, 204, 204);
+    font-size:30px; 
+    font-weight: bold;
 }.on{
     height:55px;
     width:55px;
     margin-left:194px; 
-    margin-top:40px;  
+    margin-top:40px;
+    border-radius:10px;
+    background-color: rgb(21, 217, 231);
+    font-size:27px;  
+    font-weight: bold;
+   
 }
 .rows{
     margin-top:30px;
@@ -31,4 +41,8 @@
     height:55px;
     width:55px;
     margin-left:25px;
+    border-radius:10px;
+    background-color: rgb(212, 204, 204);
+    font-size:30px;
+
 }
