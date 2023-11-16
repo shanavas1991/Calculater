@@ -10,36 +10,36 @@
 <body>
     <div class="main">
      <div >
-       <input type="text" id="screen">
+       <input type="text" id="screen" >
     </div>
     <div>
-        <button class="clear">C</button>
-        <button class="on">ON</button>
+        <button class="clearbtn" onclick="clearButton()">CE</button>
+        <button class="on" onclick="onoff()" >ON/OFF</button>
     </div>
     <div class="rows">
      <div class="row">
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn">X</button>
+        <button class="btn" onclick="buttonclick(7)">7</button>
+        <button class="btn" onclick="buttonclick(8)">8</button>
+        <button class="btn" onclick="buttonclick(9)">9</button>
+        <button class="btn" onclick="multclick('*')">X</button>
      </div>
      <div class="row">
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn">/</button>
+        <button class="btn" onclick="buttonclick(4)">4</button>
+        <button class="btn" onclick="buttonclick(5)">5</button>
+        <button class="btn" onclick="buttonclick(6)">6</button>
+        <button class="btn" onclick="divdclick('/')">/</button>
      </div>
      <div class="row">
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn">-</button>
+        <button class="btn" onclick="buttonclick(1)">1</button>
+        <button class="btn" onclick="buttonclick(2)">2</button>
+        <button class="btn" onclick="buttonclick(3)">3</button>
+        <button class="btn" onclick="subsclick()">-</button>
      </div>
      <div class="row">
-        <button class="btn">.</button>
-        <button class="btn">0</button>
-        <button class="btn">=</button>
-        <button class="btn">+</button>
+        <button class="btn" onclick="dot('.')">.</button>
+        <button class="btn" onclick="buttonclick(0)">0</button>
+        <button class="btn" onclick="equalclick()">=</button>
+        <button class="btn" onclick="addtclick()">+</button>
      </div>
     </div>
 </div>
